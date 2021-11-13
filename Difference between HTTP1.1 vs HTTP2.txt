@@ -1,0 +1,53 @@
+Write a blog on Difference between HTTP1.1 vs HTTP2
+
+answer:
+      What is HTTP:-
+               # If you are new to this theme, continue to read this block, but if you’re familiar with this, 
+		skip this paragraph and go straight forward to the next one.
+               
+               # For those that are new to this theme, Hypertext Transfer Protocol (HTTP) is an application protocol that is,
+		 currently, the foundation of data communication for the World Wide Web.
+            
+               # HTTP is based on the Client/Server model. Client/Server model can be explained as two computers,
+		 Client (receiver of service) and Server (provider of service) that are communicating via requests and responses.
+
+               # A simple and abstract example would be a restaurant guest and a waiter. The guest (Client) asks (sends request) waiter (Server) for a meal, 
+		then the waiter gets the meal from the restaurant chef (your application logic) and brings the meal to the guest.
+
+      Main goals of developing HTTP/2 was:
+                        
+               # Protocol negotiation mechanism — protocol electing, eg. HTTP/1.1, HTTP/2 or other. 
+
+               # High-level compatibility with HTTP/1.1 — methods, status codes, URIs and header fields.
+
+               # Page load speed improvements trough:
+
+               # Compression of request headers
+
+               # Binary protocol
+
+               # HTTP/2 Server Push
+
+               # Request multiplexing over a single TCP connection
+
+               # Request pipelining
+
+               # HOL blocking (Head-of-line) — Package blocking             
+
+    Benefits:
+
+              # Low overhead in parsing data — a critical value proposition in HTTP/2 vs HTTP1.
+              
+              # Less prone to errors.
+              
+              # Lighter network footprint.
+             
+              # Effective network resource utilization.
+
+              # Eliminating security concerns associated with the textual nature of HTTP1.x such as response splitting attacks.
+
+              # Enables other capabilities of the HTTP/2 including compression, multiplexing, prioritization, flow control and effective handling of TLS.
+
+              # Compact representation of commands for easier processing and implementation.
+
+              # Reduced network latency and improved throughput.
